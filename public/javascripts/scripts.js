@@ -7,6 +7,13 @@
 // Scripts
 // 
 
+/**
+ * Student Name: John Celso Inocente
+ * Student ID: 301 332 723
+ * Date: September 27, 2023
+ * Filename: scripts.js
+ */
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function

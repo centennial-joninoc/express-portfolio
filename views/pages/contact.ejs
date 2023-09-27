@@ -9,20 +9,13 @@
       <%- include('../partials/header'); %>
     </header>
     <main>
-      <!-- Signup-->
+      <!-- Signup for contact inquiry-->
       <section class="signup-section" id="signup">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-10 col-lg-8 mx-auto text-center">
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                     <h2 class="text-white mb-5">Email me for inquiries!</h2>
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
                     <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
 
                         <!-- Contact information input-->
@@ -39,14 +32,11 @@
                                 <textarea class="form-control" id="message" type="text" rows="5" cols="30" placeholder="Your Message" aria-label="Your Message"></textarea>
                                 <br />
                                 
-                                    
-                                <a class="btn btn-primary" id="submitButton" onClick="gotoHomePage()" href="/">Notify Me!</a>
+                                <button class="btn btn-primary" id="submitButton" onClick="gotoHomePage()">Notify Me!</button>
                                
                             </div>
                             <div class="col-auto"></div>
                         </div>
-                        <!-- <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div> -->
                         <!-- After click submit button, show status -->
                         <!-- success message-->
                         <div class="d-none" id="submitSuccessMessage">

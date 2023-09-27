@@ -1,3 +1,10 @@
+/**
+ * Student Name: John Celso Inocente
+ * Student ID: 301 332 723
+ * Date: September 27, 2023
+ * Filename: users.js
+ */
+
 var express = require('express');
 var router = express.Router();
 
