@@ -11,6 +11,4 @@ function gotoHomePage(req, res) {
         console.log('Contact Numer: ' +document.getElementById('contactNumber').value);
         console.log('Email Address: ' +document.getElementById('emailAddress').value);
         console.log('Message: ' +document.getElementById('message').value);
-
-        return res.redirect('/'); 
 }
