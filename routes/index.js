@@ -14,8 +14,9 @@ router.get('/', function(req, res, next) {
 });
 
 /* POST contact page */
-router.post('/', function(req, res, next) {
-  res.render('pages/index', { title: 'Fishbone Studios'});
+router.post('/', function(req, res) {
+  var inputName = req.body.firstName;
+  res.render('pages/index', { title: 'Fishbone Studios', visitorName : inputName});
 });
 
 /* GET about page. */
