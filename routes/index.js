@@ -13,6 +13,11 @@ router.get('/', function(req, res, next) {
   res.render('pages/index', { title: 'Fishbone Studios' });
 });
 
+/* POST contact page */
+router.post('/', function(req, res, next) {
+  res.render('pages/index', { title: 'Fishbone Studios'});
+});
+
 /* GET about page. */
 router.get('/about', function(req, res) {
   res.render('pages/about', { title: 'Fishbone Studios | About' });

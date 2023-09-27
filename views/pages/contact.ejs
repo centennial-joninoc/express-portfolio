@@ -16,8 +16,7 @@
                 <div class="col-md-10 col-lg-8 mx-auto text-center">
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                     <h2 class="text-white mb-5">Email me for inquiries!</h2>
-                    <form class="form-signup" id="contactForm">
-
+                    <form class="form-signup" id="contactForm" method="post" action='/'>
                         <!-- Contact information input-->
                         <div class="row input-group-newsletter">
                             <div class="col">
@@ -31,7 +30,7 @@
                                 <br />
                                 <textarea class="form-control" id="message" type="text" rows="5" cols="30" placeholder="Your Message" aria-label="Your Message"></textarea>
                                 <br />
-                                <a class="btn btn-primary" id="submitButton" onClick="gotoHomePage()" href="/">Notify Me!</a>
+                                <button class="btn btn-primary" id="submitButton" onClick="gotoHomePage()">Notify Me!</button>
                             </div>
                             <div class="col-auto"></div>
                         </div>
