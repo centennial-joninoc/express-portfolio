@@ -23,9 +23,12 @@ window.addEventListener('DOMContentLoaded', event => {
             return;
         }
         if (window.scrollY === 0) {
-            navbarCollapsible.classList.remove('navbar-shrink')
+            navbarCollapsible.classList.remove('navbar-shrink');
+            document.getElementById('logo').src = '/images/fishbone-logo.png';
         } else {
-            navbarCollapsible.classList.add('navbar-shrink')
+            navbarCollapsible.classList.add('navbar-shrink');
+            document.getElementById('logo').src = '/images/fishbone-logo-black.png';
+            
         }
 
     };
